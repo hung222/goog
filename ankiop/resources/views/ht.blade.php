@@ -9,7 +9,9 @@
 <body>
     <div class="container">
         @section('content')
-            <p>chiều nay sẽ rửa máy lọc kia</p>
+            @for($i = giachoi; $i < 10; $i++)
+    {{ $giachoi }} <br/>
+@endfor
         @show
     </div>
 </body>
