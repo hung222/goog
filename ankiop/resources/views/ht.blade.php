@@ -9,9 +9,8 @@
 <body>
     <div class="container">
         @section('content')
-            @for($i = tena; $i < 10; $i++)
-  in ra giá trị  {{ $tena }} <br/>
-@endfor
+           <p>alibabababababab</p>
+           <h2>ffffffffffffffffffffffffff<h2>
         @show
     </div>
 </body>
