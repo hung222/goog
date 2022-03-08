@@ -9,8 +9,10 @@
 <body>
     <div class="container">
         @section('content')
+        <body bgcolor=red">
            <p>alibabababababab</p>
            <h2>ffffffffffffffffffffffffff<h2>
+           <h3>bạn pro lt php ko6ng,anh tuấn hihihi</h3>
         @show
     </div>
 </body>
