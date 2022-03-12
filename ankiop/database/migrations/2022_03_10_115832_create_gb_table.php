@@ -16,6 +16,7 @@ class CreateGbTable extends Migration
         Schema::create('gb', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps('mobilegb');
+            $table->timestamps('itemgb');
         });
     }
 
